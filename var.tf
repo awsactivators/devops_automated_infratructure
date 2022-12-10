@@ -1,6 +1,7 @@
 variable "key_pair_name" {
     type = string
-    description = "main-key"
+    description = "keypair to utilize"
+    default = "main-key"
 }
 
 # variable "vpc_id" {
