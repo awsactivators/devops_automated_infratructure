@@ -15,12 +15,12 @@ Fully automated and secured Terraform infra pipeline
     - Security Group (Open): 8080, 9100 and 22 to 0.0.0.0/0
     - Key pair: Select or create a new keypair
     - **Attach Jenkins server with IAM role having "AdministratorAccess"**
-    - User data (Copy the following user data): https://github.com/cvamsikrishna11/devops-fully-automated/blob/installations/jenkins-maven-ansible-setup.sh
+    - User data (Copy the following user data): https://github.com/awsactivators/Jenkins-Pipeline-With-Prometheus-Grafana/tree/maven-sonarqube-jenkins-install
     - Launch Instance
     - After launching this Jenkins server, attach a tag as **Key=Application, value=jenkins**
 
 3) ###### Slack 
-    - **Join the slack channel https://join.slack.com/t/slack-wcl4742/shared_invite/zt-1kid01o3n-W47OUTHBd2ZZpSzGnow1Wg**
+    - **Join the slack channel https://join.slack.com/
     - **Join into the channel "#team-devops"**
 
 ### Jenkins setup
